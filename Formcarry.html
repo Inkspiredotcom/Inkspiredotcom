@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Your Info</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      padding: 30px;
+    }
+    form {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 450px;
+      margin: auto;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #007bff;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+    input, textarea {
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    small {
+      color: #888;
+      display: block;
+      margin-top: -10px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>📸 Info Submission Form</h2>
+
+  <form action="https://formcarry.com/s/3nJpjaryK91" method="POST" enctype="multipart/form-data">
+    <label for="photo">Upload Your Photo:</label>
+    <input type="file" name="photo" accept="image/*" required>
+    <small>Max file size: 5MB. Accepted formats: JPG, PNG.</small>
+
+    <label for="address">Your Address:</label>
+    <textarea name="address" rows="3" placeholder="Type your full address here..." required></textarea>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Enter 10-digit number" required>
+
+    <button type="submit">Send Info</button>
+  </form>
+
+</body>
+</html>
