@@ -68,15 +68,16 @@
     <label for="last-name">Last Name:</label>
     <input type="text" id="last-name" name="last-name" placeholder="e.g. Doe" required>
 
-    <label for="photo">Upload Your Photo:</label>
-    <input type="file" name="photo" accept="image/*" required>
-    <small>Max file size: 5MB. Accepted formats: JPG, PNG.</small>
-
     <label for="address">Your Address:</label>
     <textarea name="address" rows="3" placeholder="Type your full address here..." required></textarea>
 
     <label for="phone">Phone Number:</label>
     <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Enter 10-digit number" required>
+    <small>Enter a valid 10-digit mobile number (e.g. 9876543210)</small>
+
+    <label for="photo">Upload Your Photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+    <small>Max file size: 5MB. Accepted formats: JPG, PNG.</small>
 
     <button type="submit">Send Info</button>
   </form>
