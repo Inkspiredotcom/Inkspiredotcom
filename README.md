@@ -10,4 +10,4 @@ I code, design, and debug entirely on mobile (Android gang 💪), and I love mak
 - 🤔 I’m looking for help with: file uploads that work smoothly on mobile  
 - 💬 Ask me about: design ideas  
 - 📫 How to reach me: mvmsunsiddharaj@gmail.com 
-- ⚡ Fun fact: I treat every bug like a boss fight—and I always win 🕹️
+- ⚡ Fun fact: I treat every bug like a boss fight—and I always win 🕹️.
