@@ -1,7 +1,7 @@
 
 ## Hi there 👋
 
-I'm Sunsiddharaj, the builder behind **Inkspireddotcom**—a shirt printing brand that turns ideas into wearable art.  
+I'm Sunsiddharaj, the builder behind **Inkspireddotcom**—a shirt printing brand that turns ideas into wearable art!  
 I code, design, and debug entirely on mobile (Android gang 💪), and I love making forms that actually work for real people.
 
 - 🛠️ I’m currently working on: a public order form for custom shirt designs  
